@@ -1,0 +1,13 @@
+:root {
+  --orange-color: color-mod(red blackness(20%));
+}
+
+.button {
+  font-size: 60px;
+  border: none;
+  padding: 1em 1.5em;
+
+  & > span {
+    color: var(--orange-color);
+  }
+}
